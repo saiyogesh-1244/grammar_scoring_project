@@ -21,3 +21,5 @@ __pycache__/
 # Other model folders
 models/
 data/
+# Streamlit secrets
+.streamlit/secrets.toml
