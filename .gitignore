@@ -1,0 +1,23 @@
+
+# Python virtual environment
+venv/
+
+# API keys and secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files
+# Ignore model files except the required scoring model
+*.pth
+!best_model.pth
+
+# System files
+.DS_Store
+
+# Other model folders
+models/
+data/
